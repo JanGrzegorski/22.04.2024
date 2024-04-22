@@ -1,0 +1,155 @@
+body{
+    margin: 50px;
+    padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YOPQ" 300;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul{
+    display: flex;
+    margin-left: 60px;
+    list-style-type: none;
+}
+li{
+    padding-left: 30px;
+    color:  gray;
+}
+li:hover{
+    color: black;
+}
+.navigacja{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+.ikony_nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.koszyk img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.ziomek img{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+container{
+    margin: 100px;
+}
+.main_duze_zdj img{
+    border-radius: 25px;
+    padding: 10px;
+    height: 500px;
+    width: 550px;
+}
+.main_male_zdj img{
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    
+}
+.main_male_zdj{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.main_zdjecia .srodek{
+    width: 100%;
+    display: flex;
+}
+.main_zdjecia{
+    float: left;
+    width: 50%;
+}
+.srodek{
+    float: right;
+    width: 50%;
+}
+.nigers_companny p{
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
+    font-weight: 700;
+}
+.h1{
+    width: 300px;
+}
+.container{
+    margin: 50px;
+    width: 450px;
+}
+.hajs{
+display: flex;
+align-items: flex-start;
+width: 200px;
+padding-bottom: 10px;
+}
+.lewo , .prawa{
+display: flex;
+width: 49%;
+font-weight: 700;
+}
+.lewo{
+    text-decoration: double;
+    font-weight: 700;
+    font-size: 25px;
+}
+.prawa{
+    background-color: hsl(25, 100%, 94%);
+    color:hsl(26, 100%, 55%);
+    width:50px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px;
+}
+.cena{
+    color: gray;
+    text-decoration: line-through;
+}
+.dodawanie_produkt_srodek{
+    display: flex;
+    padding-top: 60px;
+}
+button{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+input{
+    display: flex;
+    height: 25px;
+}
+.koszyczek{
+    display: flex;
+    margin-left: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+}
+.koszyczek img{
+    color:white;
+}
